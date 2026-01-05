@@ -67,7 +67,7 @@
 &none              &sys_reset  &sys_reset  &sys_reset  &kp TAB     &kp TAB     &kp DOUBLE_QUOTES  &kp HASH    &kp AT_SIGN           &kp AMPERSAND          &kp PERCENT
 &kp C_VOLUME_UP    &sys_reset  &sys_reset  &sys_reset  &kp LC(F)   &mkp MCLK   &sys_reset         &kp COLON   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL
 &kp C_VOLUME_DOWN  &sys_reset  &sys_reset  &sys_reset  &kp LG(H)   &kp TAB     &sys_reset         &sys_reset  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCL
-&kp C_MUTE         &sys_reset  &sys_reset  &sys_reset  &kp DELETE  &sys_reset  &sys_reset         &sys_reset  &kp ASTERISK
+&kp C_MUTE         &sys_reset  &sys_reset  &sys_reset  &kp DELETE  &sys_reset  &sys_reset         &sys_reset  &none
             >;
 
             sensor-bindings = <&rot_kp PAGE_DOWN PAGE_UP>;
