@@ -28,10 +28,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E           &kp R        &kp T          &mt LG(PERIOD) F7  &kp Y      &kp U      &kp I      &kp O       &lt 5 P
-&kp A             &kp S         &kp D           &kp F        &kp G          &mkp MCLK          &kp H      &kp J      &kp K      &kp L       &kp MINUS
-&kp Z             &kp X         &kp C           &kp V        &kp B          &mt LS(LG(S)) F10  &kp N      &kp M      &kp COMMA  &kp PERIOD  &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &kp BACKSPACE  &mkp LCLK          &mkp RCLK  &kp ENTER  &mo 5
+&kp Q             &kp W         &kp E             &kp R        &kp T          &mt LG(PERIOD) F7  &kp Y      &kp U      &kp I                    &kp O       &lt 5 P
+&kp A             &kp S         &kp D             &kp F        &kp G          &none              &kp H      &kp J      &kp K                    &kp L       &kp MINUS
+&kp Z             &kp X         &kp C             &kp V        &kp B          &mt LS(LG(S)) F10  &kp N      &kp M      &kp COMMA                &kp PERIOD  &kp SLASH
+&kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 LEFT_SHIFT  &lt 2 SPACE  &kp BACKSPACE  &mkp LCLK          &mkp RCLK  &kp ENTER  &kp LANG_ZENKAKUHANKAKU
             >;
 
             sensor-bindings = <&rot_kp PG_DN PG_UP>;
@@ -64,10 +64,10 @@
 
         Lower2_layer {
             bindings = <
-&none              &none  &none  &none  &kp TAB     &kp TAB    &kp DOUBLE_QUOTES  &kp HASH   &kp AT_SIGN           &kp AMPERSAND          &kp PERCENT
-&kp C_VOLUME_UP    &none  &none  &none  &kp LC(F)   &mkp MCLK  &none              &kp COLON  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL
-&kp C_VOLUME_DOWN  &none  &none  &none  &kp LG(H)   &kp TAB    &none              &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCL
-&kp C_MUTE         &none  &none  &none  &kp DELETE  &none      &none              &none      &none
+&none              &none  &none  &none  &kp TAB     &none  &kp AT  &kp HASH          &kp LEFT_BRACKET   &kp LS(N6)       &kp PERCENT
+&kp C_VOLUME_UP    &none  &none  &none  &kp LC(F)   &none  &none   &kp SINGLE_QUOTE  &kp RIGHT_BRACKET  &kp NON_US_HASH  &kp EQUAL
+&kp C_VOLUME_DOWN  &none  &none  &none  &kp LG(H)   &none  &none   &none             &kp LS(N8)         &kp LS(N9)       &kp EXCL
+&kp C_MUTE         &none  &none  &none  &kp DELETE  &none  &none   &none             &kp DOUBLE_QUOTES
             >;
 
             sensor-bindings = <&rot_kp PAGE_DOWN PAGE_UP>;
@@ -114,10 +114,10 @@
 
         Bt_layer {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL
-&none         &none         &none         &none         &none         &none         &none         &bt BT_PRV    &none         &bt BT_NXT  &none
-&none         &none         &none         &none         &none         &none         &none         &none         &none         &none       &none
-&none         &none         &none         &none         &none         &none         &none         &none         &none
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &none  &none  &none  &none  &none
+&none         &none         &none         &none         &none         &none         &none  &none  &none  &none  &none
+&none         &none         &none         &none         &none         &none         &none  &none  &none  &none  &none
+&none         &none         &none         &none         &none         &none         &none  &none  &none
             >;
         };
     };
