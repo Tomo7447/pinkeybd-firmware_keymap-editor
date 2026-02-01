@@ -125,7 +125,7 @@
 &kp LEFT_CONTROL  &lt 1 LEFT_ALT  &lt 2 SPACE  &kp LEFT_SHIFT  &kp BACKSPACE  &mkp LCLK          &lt 3 ENTER  &mkp RCLK  &mt LEFT_ALT LC(SPACE)
             >;
 
-            sensor-bindings = <&rot_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&rot_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
         };
 
         Number_layer {
