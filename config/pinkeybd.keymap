@@ -158,7 +158,7 @@
 &kp C_MUTE         &trans  &trans  &trans  &trans         &trans  &trans            &trans             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
+            sensor-bindings = <&inc_dec_kp LC(LS(SEMI)) LC(MINUS)>;
         };
 
         Func_layer {
