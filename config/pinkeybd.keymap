@@ -119,13 +119,13 @@
 
         default_layer {
             bindings = <
-&kp A             &kp W           &kp E        &kp R           &kp T          &mt LG(PERIOD) F7  &kp Y        &kp U      &kp I                   &kp O                &kp P
+&kp Q             &kp W           &kp E        &kp R           &kp T          &mt LG(PERIOD) F7  &kp Y        &kp U      &kp I                   &kp O                &kp P
 &kp A             &kp S           &kp D        &kp F           &kp G          &none              &kp H        &kp J      &kp K                   &kp L                &minus_single
 &mt LEFT_SHIFT Z  &kp X           &kp C        &kp V           &kp B          &mt LG(H) F10      &kp N        &kp M      &comm_question          &period_exclamation  &backslash_double
 &kp LEFT_CONTROL  &lt 1 LEFT_ALT  &lt 2 SPACE  &kp LEFT_SHIFT  &kp BACKSPACE  &mkp LCLK          &lt 3 ENTER  &mkp RCLK  &mt LEFT_ALT LC(SPACE)
             >;
 
-            sensor-bindings = <&rot_kp K_SCROLL_DOWN K_SCROLL_DOWN>;
+            sensor-bindings = <&rot_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         Number_layer {
